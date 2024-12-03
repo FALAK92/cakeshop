@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -23,7 +23,7 @@ const Header = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
           >
-            <img
+            <Image
               src="/icon2.png"
               alt="Cake Shop Logo"
               className="w-14 h-14 rounded-full"

@@ -22,7 +22,7 @@ const Contact = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          We'd Love to Hear From You
+          We &apos; d Love to Hear From You
         </motion.h1>
 
         <motion.p

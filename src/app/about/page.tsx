@@ -2,6 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -37,11 +38,11 @@ const About = () => {
             }}
           >
             <div className="bg-white rounded-lg shadow-2xl p-4">
-              <img
+              <Image
                 src="/about.avif"
                 alt="Cake Shop"
                 className="rounded-lg w-full transition-all duration-300 ease-in-out"
-              />
+                />
             </div>
           </motion.div>
 
