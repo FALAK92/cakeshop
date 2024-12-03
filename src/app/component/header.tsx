@@ -24,7 +24,9 @@ const Header = () => {
             transition={{ duration: 0.5 }}
           >
             <Image
-              src="/icon2.png"
+              src="/icon3.png"
+              width={50}
+              height={50}
               alt="Cake Shop Logo"
               className="w-14 h-14 rounded-full"
             />
