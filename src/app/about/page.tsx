@@ -41,6 +41,8 @@ const About = () => {
               <Image
                 src="/about.avif"
                 alt="Cake Shop"
+                width={30}
+                height={30}
                 className="rounded-lg w-full transition-all duration-300 ease-in-out"
                 />
             </div>
